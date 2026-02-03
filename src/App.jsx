@@ -16,6 +16,14 @@ import { MapDemo7 } from './Components/MapDemo7';
 import { MapDemo8 } from './Components/MapDemo8';
 import { MapDemo9 } from './Components/MapDemo9';
 import { MapDemo10 } from './Components/MapDemo10';
+import { NetflixHomes } from './Components/NetflixHomes';
+import { NetflixMovies } from './Components/NetflixMovies';
+import { NetflixShows } from './Components/NetflixShows';
+import { NetflixSpark } from './Components/NetflixSpark';
+import { NetflixBrowse } from './Components/NetflixBrowse';
+import { NetflixSport } from './Components/NetflixSport';
+import { Routes, Route } from 'react-router-dom';
+import { NavBar } from './Components/NavBar';
 
 
 //import './App.css'
@@ -23,8 +31,8 @@ import { MapDemo10 } from './Components/MapDemo10';
 function App() { 
 
   return ( 
-      <div style={{ backgroundColor: "#fafafa", minHeight: "100vh" }}>
-     <MapDemo1></MapDemo1>
+      <div>
+     {/* <MapDemo1></MapDemo1>
       <MapDemo2></MapDemo2>
       <MapDemo3></MapDemo3>
       <MapDemo4></MapDemo4>
@@ -34,7 +42,18 @@ function App() {
       <MapDemo8></MapDemo8>
       <MapDemo9></MapDemo9>
       <MapDemo10></MapDemo10>
-      
+       */}
+       <NavBar>
+       </NavBar>
+         <Routes>
+        <Route path='/spark' element={<NetflixSpark></NetflixSpark>}></Route>
+        <Route path='/browse' element={<NetflixBrowse></NetflixBrowse>}></Route>
+        <Route path='/sport' element={<NetflixSport></NetflixSport>}></Route>
+        <Route path='/home' element={<NetflixHomes></NetflixHomes>}></Route>
+        <Route path='/movies' element={<NetflixMovies></NetflixMovies>}></Route>
+        <Route path='/shows' element={<NetflixShows></NetflixShows>}></Route>
+         </Routes>
+
       
      
  
