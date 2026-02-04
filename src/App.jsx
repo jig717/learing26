@@ -1,4 +1,3 @@
-
 import { Headercomponents } from './Components/Headercomponents';
 import { Footercomponents } from './Components/Footercomponents'; 
 import { Contentcomponents } from './Components/Contentcomponents';
@@ -22,8 +21,11 @@ import { NetflixShows } from './Components/NetflixShows';
 import { NetflixSpark } from './Components/NetflixSpark';
 import { NetflixBrowse } from './Components/NetflixBrowse';
 import { NetflixSport } from './Components/NetflixSport';
+import { Watch } from './Components/Watch';
+import { EeeoeNotFound } from './Components/EeeoeNotFound';
 import { Routes, Route } from 'react-router-dom';
 import { NavBar } from './Components/NavBar';
+import { Teams } from './Components/Teams';
 
 
 //import './App.css'
@@ -49,9 +51,12 @@ function App() {
         <Route path='/spark' element={<NetflixSpark></NetflixSpark>}></Route>
         <Route path='/browse' element={<NetflixBrowse></NetflixBrowse>}></Route>
         <Route path='/sport' element={<NetflixSport></NetflixSport>}></Route>
-        <Route path='/home' element={<NetflixHomes></NetflixHomes>}></Route>
+        <Route path='/' element={<NetflixHomes></NetflixHomes>}></Route>
         <Route path='/movies' element={<NetflixMovies></NetflixMovies>}></Route>
         <Route path='/shows' element={<NetflixShows></NetflixShows>}></Route>
+        <Route path='/watch/:name' element={<Watch></Watch>}></Route>
+        <Route path='/Teams' element={<Teams></Teams>}></Route>
+        <Route path='/*' element={<EeeoeNotFound></EeeoeNotFound>}></Route>
          </Routes>
 
       
