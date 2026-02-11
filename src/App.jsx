@@ -31,7 +31,10 @@ import { UseStateDemo1 } from './Components/UseStateDemo1';
 import { UseStateDemo2 } from './Components/UseStateDemo2';
 import { UseStateDemo3 } from './Components/UseStateDemo3';
 import { Employees } from './Components/Employees'; 
-
+import { FormDemo1 } from './Components/Form/FormDemo1';
+import { FormDemo2 } from './Components/Form/FormDemo2';
+import { FormDemo3 } from './Components/Form/FormDemo3';
+import { FormDemo4 } from './Components/Form/FormDemo4';
 //import './App.css'
 
 function App() { 
@@ -58,6 +61,8 @@ function App() {
         <Route path='/' element={<NetflixHomes></NetflixHomes>}></Route>
         <Route path='/movies' element={<NetflixMovies></NetflixMovies>}></Route>
         <Route path='/shows' element={<NetflixShows></NetflixShows>}></Route>
+        <Route path='/FormDemo3' element={<FormDemo3></FormDemo3>}></Route>
+        <Route path='/FormDemo4' element={<FormDemo4></FormDemo4>}></Route>
         <Route path='/watch/:name' element={<Watch></Watch>}></Route>
         <Route path='/Teams' element={<Teams></Teams>}></Route>
         <Route path='/FunctionDemo1' element={<FunctionDemo1></FunctionDemo1>}></Route>
@@ -65,10 +70,11 @@ function App() {
           <Route path='/UseStateDemo2' element={<UseStateDemo2></UseStateDemo2>}></Route>
           <Route path='/UseStateDemo3' element={<UseStateDemo3></UseStateDemo3>}></Route>
           <Route path='/Employees' element={<Employees></Employees>}></Route>
+          <Route path='/FormDemo1' element={<FormDemo1></FormDemo1>}></Route>
+          <Route path='/FormDemo2' element={<FormDemo2></FormDemo2>}></Route>
           <Route path='/*' element={<EeeoeNotFound></EeeoeNotFound>}></Route>
          </Routes>
-          
- 
+        
       </div>
     
   )
