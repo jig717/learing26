@@ -30,7 +30,7 @@ import { FunctionDemo1 } from './Components/FunctionDemo1';
 import { UseStateDemo1 } from './Components/UseStateDemo1';
 import { UseStateDemo2 } from './Components/UseStateDemo2';
 import { UseStateDemo3 } from './Components/UseStateDemo3';
-
+import { Employees } from './Components/Employees'; 
 
 //import './App.css'
 
@@ -64,12 +64,10 @@ function App() {
           <Route path='/UseStateDemo1' element={<UseStateDemo1></UseStateDemo1>}></Route>
           <Route path='/UseStateDemo2' element={<UseStateDemo2></UseStateDemo2>}></Route>
           <Route path='/UseStateDemo3' element={<UseStateDemo3></UseStateDemo3>}></Route>
-          
+          <Route path='/Employees' element={<Employees></Employees>}></Route>
           <Route path='/*' element={<EeeoeNotFound></EeeoeNotFound>}></Route>
          </Routes>
-
-      
-     
+          
  
       </div>
     

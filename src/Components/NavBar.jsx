@@ -72,11 +72,17 @@ export const NavBar = () => {
                 UseStateDemo2
               </Link>
             </li>
-            <li class="nav-item active">
-              <Link class="nav-link" to="/UseStateDemo3">
-                UseStateDemo3
-              </Link>
-            </li>
+              <li class="nav-item active">
+                <Link class="nav-link" to="/UseStateDemo3">
+                  UseStateDemo3
+                </Link>
+              </li>
+              <li class="nav-item active">
+                <Link class="nav-link" to="/Employees">
+                  Employees
+                </Link>
+              </li>
+
           </ul>
         </div>
       </nav>  
