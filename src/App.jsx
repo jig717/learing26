@@ -35,7 +35,9 @@ import { FormDemo1 } from './Components/Form/FormDemo1';
 import { FormDemo2 } from './Components/Form/FormDemo2';
 import { FormDemo3 } from './Components/Form/FormDemo3';
 import { FormDemo4 } from './Components/Form/FormDemo4';
+import { FormValidation1 } from './Components/Form/FormValidation1';
 import { Dropdown } from './Components/Form/dropdown';
+import { FormValidation2 } from './Components/Form/FormValidation2';
 //import './App.css'
 
 function App() { 
@@ -58,6 +60,8 @@ function App() {
          <Routes>
         <Route path='/spark' element={<NetflixSpark></NetflixSpark>}></Route>
         <Route path='/browse' element={<NetflixBrowse></NetflixBrowse>}></Route>
+        <Route path='/FormValidation1' element={<FormValidation1></FormValidation1>}></Route>
+        <Route path='/FormValidation2' element={<FormValidation2></FormValidation2>}></Route>
         <Route path='/sport' element={<NetflixSport></NetflixSport>}></Route>
         <Route path='/' element={<NetflixHomes></NetflixHomes>}></Route>
         <Route path='/movies' element={<NetflixMovies></NetflixMovies>}></Route>

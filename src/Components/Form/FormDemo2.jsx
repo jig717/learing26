@@ -44,7 +44,7 @@ export const FormDemo2 = () => {
             Submit == true && <div>
                 <h1>OUTPUT</h1>
                 <h1>Name = {userData.FirstName} {userData.LastName}</h1>
-                <h2>Email = {userData.Email}</h2>
+                <h2>Email = {userData.Email}</h2> 
                 <h2>Gender = {userData.Gender}</h2>
                 <h2>PhoneNo = {userData.PhoneNo}</h2>
 
