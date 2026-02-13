@@ -38,6 +38,8 @@ import { FormDemo4 } from './Components/Form/FormDemo4';
 import { FormValidation1 } from './Components/Form/FormValidation1';
 import { Dropdown } from './Components/Form/dropdown';
 import { FormValidation2 } from './Components/Form/FormValidation2';
+import { FormDemo5 } from './Components/Form/FormDemo5';
+import { FormDemo6 } from './Components/Form/FormDemo6';
 //import './App.css'
 
 function App() { 
@@ -76,8 +78,9 @@ function App() {
           <Route path='/UseStateDemo3' element={<UseStateDemo3></UseStateDemo3>}></Route>
           <Route path='/Employees' element={<Employees></Employees>}></Route>
           <Route path='/FormDemo1' element={<FormDemo1></FormDemo1>}></Route>
-
-          <Route path='/FormDemo2' element={<FormDemo2></FormDemo2>}></Route>
+            <Route path='/FormDemo2' element={<FormDemo2></FormDemo2>}></Route>
+          <Route path='/FormDemo5' element={<FormDemo5></FormDemo5>}></Route>
+          <Route path='/FormDemo6' element={<FormDemo6></FormDemo6>}></Route>
           <Route path='/Dropdown' element={<Dropdown></Dropdown>}></Route>
           <Route path='/*' element={<EeeoeNotFound></EeeoeNotFound>}></Route>
          </Routes>
