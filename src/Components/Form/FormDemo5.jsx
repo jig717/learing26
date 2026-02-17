@@ -55,6 +55,7 @@ export const FormDemo5 = () => {
         <form onSubmit={handleSubmit(submitHanlder)}>
             <div>
                 <label>NAME:</label>
+            
                 <input type='text' {...register("name",validationSchema.nameValidator)}></input>
                 {errors.name?.message}
             </div>

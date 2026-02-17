@@ -17,7 +17,7 @@ export const FormDemo6 = () => {
         console.log(data)
     }
 
-    const validationSchema = {
+    const validationSchema = { 
         passwordValidator: {
             required: {
                 value: true,
