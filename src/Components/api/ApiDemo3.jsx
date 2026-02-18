@@ -28,7 +28,7 @@ export const ApiDemo3 = () => {
                         <th>password</th>
             
                     </tr>
-                </thead>
+                 </thead>
                 <tbody>
                     {getdata && getdata?.users?.map((item) => (
                         <tr key={item.id}>
