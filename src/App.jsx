@@ -45,6 +45,7 @@ import { ApiDemo2 } from "./Components/api/ApiDemo2";
 import { ApiDemo3 } from "./Components/api/ApiDemo3";
 import { ApiDemo4 } from "./Components/api/ApiDemo4";
 import { MovieDetail } from "./Components/api/MovieDetail";
+import { ApiDemo5 } from './Components/api/ApiDemo5';
 
 //import './App.css'
 
@@ -92,6 +93,8 @@ function App() {
         <Route path='/ApiDemo2' element={<ApiDemo2></ApiDemo2>}></Route>
         <Route path='/ApiDemo3' element={<ApiDemo3></ApiDemo3>}></Route>
         <Route path='/ApiDemo4' element={<ApiDemo4></ApiDemo4>}></Route>
+        <Route path='/ApiDemo5' element={<ApiDemo5></ApiDemo5>}></Route>
+
         <Route path='/movie/:imdbId' element={<MovieDetail></MovieDetail>}></Route>
           <Route path='/*' element={<EeeoeNotFound></EeeoeNotFound>}></Route>
          </Routes>

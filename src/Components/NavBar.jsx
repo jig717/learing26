@@ -57,22 +57,22 @@ export const NavBar = () => {
                 Teams
               </Link>
             </li>
-            <li class="nav-item active">
-              <Link class="nav-link" to="/FunctionDemo1">
-                FunctionDemo
-              </Link>
-            </li>
-            <li class="nav-item active">
-              <Link class="nav-link" to="/UseStateDemo1">
-                UseStateDemo
-              </Link>
-            </li>
-            <li class="nav-item active">
-              <Link class="nav-link" to="/UseStateDemo2">
-                UseStateDemo2
-              </Link>
-            </li>
               <li class="nav-item active">
+                <Link class="nav-link" to="/FunctionDemo1">
+                  FunctionDemo
+                </Link>
+              </li>
+              <li class="nav-item active">
+                <Link class="nav-link" to="/UseStateDemo1">
+                  UseStateDemo
+                </Link>
+              </li>
+              <li class="nav-item active">
+                <Link class="nav-link" to="/UseStateDemo2">
+                  UseStateDemo2
+                </Link>
+              </li>
+                <li class="nav-item active">
                 <Link class="nav-link" to="/UseStateDemo3">
                   UseStateDemo3
                 </Link>
@@ -146,6 +146,11 @@ export const NavBar = () => {
               <li class="nav-item active">
                 <Link class="nav-link" to="/ApiDemo4">
                 ApiDemo4
+                </Link>
+              </li>
+              <li class="nav-item active">
+                <Link class="nav-link" to="/ApiDemo5">
+                ApiDemo5
                 </Link>
               </li>
 
